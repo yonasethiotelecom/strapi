@@ -1,0 +1,75 @@
+{
+  "IndexPage": {
+    "title": "ወደ ኢትዮ ቴሌኮም ሞባይል አፕ ሱቅ እንኳን ደህና መጡ",
+    "title2": "የእኛ የቅርብ ጊዜ የሞባይል መተግበሪያ",
+    "footer":"ተጨማሪ የኢትዮ ቴሌኮም የሞባይል አፕሊኬሽኖችን ያስሱ"
+  },
+  "Apps":{
+    "title":"ኢትዮ ቴሌኮም ሞባይል አፕስ"
+    
+      },
+      "Reting":{
+        "CustomerReviews":"የደንበኛ ክለሳዎች",
+        "ReviewDate":"የክለሳ ቀን",
+      "LoadMoreReviews":"ተጨማሪ ክለሳዎች ይጫኑ",
+      "ReactRatings":"የደረጃ አሰጣጥ ምላሽ",
+      "Submit":"አስረክብ",
+      "What'syourexperience?":"ምን ዓይነት ተሞክሮ ?"
+      
+       },
+  "Card":{
+    "Downloadfrom":"የማውረድ ገጽ",
+    "Published":"የታተመ",
+    "Updated":"ተዘምኗል",
+    "reviews":"ግምገማዎች",
+    "Downloads":"ውርዶች",
+    "EthioAppStore":"ኢትዮ አፕ ስቶር",
+    "PlayStore":"Play Store",
+    "Details":"ዝርዝሮች",
+    "Size":"መጠን"
+  },
+  "language":{
+    "lan":"am"
+  },
+  "ContactPage": {
+      "title": "መገናኘት",
+      "email":" ኢሜይል",
+      "wey":"እኛን ለመድረስ ምርጡ መንገድ በ በኩል ነው",
+      "our":"የእኛ የግንኙነት ገጽ"
+    },
+  "AboutPage": {
+      "title": "ስለ",
+      "description": "ስለ ኢቲዮ ቴሌኮም",
+      "description2":"የቴሌኮም አገልግሎት አቅራቢ በኢትዮጵያ",
+     "description3":"ስለ ኢቲዮ ቴሌኮም የበለጠ ይወቁ።"
+    },
+    "footer":{
+      "Ethiotelecom":"ኢትዮ ቴሌኮም።",
+      "AllRightReserved" :"ሁሉም መብቶች የተጠበቁ ናቸው።",
+     "Copyright": "© የቅጂ መብት 2023 እስከ 2026 "
+    },
+  "Error": {
+    "title": "ሆነ ችግር ተፈጠረ!",
+    "description": "<p>በሚያሳዝን ሁኔታ ስህተት አጋጥሞናል።</p><p> ገጹን እንደገና ለመጫን <retry> መሞከር ይችላሉ</retry> እየጎበኙ ነበር.</p>"
+  },
+  "NotFoundPage": {
+    "title": "ገጽ አልተገኘም",
+    "description": "እባክዎን የአሳሽ አድራሻ አሞሌን ሁለቴ ያረጋግጡ ወይም ወደ የታወቀ ገጽ ለመሄድ አሰሳን ይጠቀሙ።"
+  },
+  "LocaleLayout": {
+    "title": "ኢትዮ አፕ ስቶር"
+  },
+
+  "LocaleSwitcher": {
+    "label": "ቋንቋ ቀይር",
+  "locale": "{locale, select, en {English} am {አማርኛ}  other {Unknown}}"
+
+  },
+
+  "Navigation": {
+    "apps": "መተግበሪያዎች",
+    "home": "ቤት",
+    "about": "ስለ",
+    "contact":"መገናኘት"
+  }
+}

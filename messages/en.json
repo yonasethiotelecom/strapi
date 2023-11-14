@@ -1,0 +1,81 @@
+{
+  "IndexPage": {
+    "title": "Welcome to Ethio telecom Mobile App Store",
+    "title2": "Our Latest Mobile App",
+    "footer":"Explore more Ethio telecom Mobile Apps"
+  },
+  "Apps":{
+"title":"Ethio telecom Mobile Apps"
+
+  },
+ "Reting":{
+  "CustomerReviews":"Customer Reviews",
+  "ReviewDate":"Review Date",
+"LoadMoreReviews":"Load More Reviews",
+"ReactRatings":"React Ratings",
+"Submit":"Submit",
+"What'syourexperience?":"What's your experience?"
+
+ },
+
+  "Card":{
+  "Downloadfrom":"Download from",
+  "Published":"Published",
+  "Updated":"Updated",
+  "reviews":"reviews",
+  "Downloads":"Downloads",
+  "EthioAppStore":"Ethio App Store",
+  "PlayStore":"Play Store",
+  "Details":"Details",
+  "Size":"Size"
+
+  },
+"language":{
+  "lan":"en"
+},
+
+  "ContactPage": {
+    "title": "Contact",
+    "email":" Email",
+    "wey":"The best way to reach us is via",
+    "our":"Our Contact Page"
+  },
+
+  "AboutPage": {
+    "title": "About",
+    "description": "About Ethio telecom",
+    "description2":"Telecom Service Provider in Ethiopia",
+   "description3":"Learn More About Ethio telecom."
+  },
+  "Error": {
+    "title": "Something went wrong!",
+    "description": "<p>We've unfortunately encountered an error.</p><p>You can try to <retry>reload the page</retry> you were visiting.</p>"
+  },
+  "NotFoundPage": {
+    "title": "Page not found",
+    "description": "Please double-check the browser address bar or use the navigation to go to a known page."
+  },
+  "LocaleLayout": {
+    "title": "Ethio App Store"
+  },
+
+  "LocaleSwitcher": {
+    "label": "Change language",
+    "locale": "{locale, select, en {English} am {አማርኛ}  other {Unknown}}"
+  },
+
+  "Navigation": {
+    "apps": "Apps",
+    "home": "Home",
+    "about": "About",
+    "contact":"Contact"
+  },
+ 
+
+  "footer":{
+    "Ethiotelecom":"Ethio telecom.",
+    "AllRightReserved" :"All Right Reserved.",
+   "Copyright": "© Copyright 2023 to 2026"
+  }
+
+}
