@@ -37,10 +37,10 @@ const ProductCard: React.FC<any> = ({ product }) => {
   return (
     <div className="bg-white p-4 shadow-sm border border-gray-100 rounded-lg  max-w-xs  max-h-min ">
         <div className=' '>
-      <Image
+      <img
         src={`${process.env.NEXT_PUBLIC_SERVER}${product.attributes.image?.data[0]?.attributes.formats.thumbnail.url}`}
         alt={product.attributes.title}
-        fill
+       
         
         className=" mx-auto w-16 h-16 object-cover rounded-md my-4 "
       />

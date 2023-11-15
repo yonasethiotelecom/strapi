@@ -139,7 +139,7 @@ const downloadSelf =async ()=>{
 <div className='flex justify-center items-center '>
 {product.attributes.playStoreLink&&(<>
     <div className='grid place-content-center '>
-    <Link 
+    <a 
         href={product.attributes.playStoreLink}
 
         
@@ -151,7 +151,7 @@ const downloadSelf =async ()=>{
         />
         <span    className="  text-[#8Dc63F] m-2 block text-xs no-underline hover:text-ethLightBlue-500">{t("PlayStore")}</span>
 
-      </Link >
+      </a >
 
     </div>
     <div className='mx-auto  text-center '>
@@ -159,7 +159,7 @@ const downloadSelf =async ()=>{
       </div>
     </>)}
     <div className=' grid place-content-center '>
-    <Link 
+    <a
   href={`${process.env.NEXT_PUBLIC_SERVER}` + product.attributes.file.data.attributes.url}
   onClick={() => downloadSelf()}
 >
@@ -178,7 +178,7 @@ const downloadSelf =async ()=>{
                     </svg>
                     <span   className=" text-ethLime-500  block text-xs no-underline hover:text-ethLightBlue-500" >{t("EthioAppStore")}</span>
 
-      </Link >
+      </a >
       </div>   
     </div>
 

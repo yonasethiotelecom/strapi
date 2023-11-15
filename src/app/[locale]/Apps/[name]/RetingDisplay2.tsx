@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { FaStar } from 'react-icons/fa';
 import { BiSolidUserCircle } from 'react-icons/Bi';
+import Image from 'next/image';
 
 import { useQuery } from '@tanstack/react-query';
 import { useInfiniteQuery } from '@tanstack/react-query'
@@ -92,6 +93,7 @@ const allIds: number[] = data2.data.attributes.localizations.data.map((item: { i
   
   const t = useTranslations('Reting');
 
+
   return status === 'pending' ? (
     <div className="text-center text-2xl text-gray-600">
     Loading...
@@ -108,9 +110,8 @@ const allIds: number[] = data2.data.attributes.localizations.data.map((item: { i
         {group.data?.map((review: Review) => (
            <div key={review.id} className="bg-white p-4 rounded-lg mb-4">
            <div className="flex items-center mb-2">
-            {/*  <BiSolidUserCircle size={30} className="mr-2" /> */}
-             <img src ={review.attributes.image} alt=""  className='h-8 w-8 mr-2 rounded-full object-cover'/>
-          
+        
+             <img src ={review.attributes.image} alt="IM"  className='h-8 w-8 mr-2 rounded-full object-cover'/>
 
              <p className="text-lg  ">{review.attributes.username}</p>
            </div>
